@@ -4,9 +4,17 @@
     <custom>false</custom>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Case.CaseField1May__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Dog__c.Breed__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <layoutAssignments>
+        <layout>Case-Formato de casos</layout>
+    </layoutAssignments>
     <layoutAssignments>
         <layout>Dog__c-Dog Layout</layout>
     </layoutAssignments>
