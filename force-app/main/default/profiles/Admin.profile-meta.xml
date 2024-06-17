@@ -9,6 +9,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Case.CaseField1May__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Contact.MayField1__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -19,6 +24,9 @@
     </fieldPermissions>
     <layoutAssignments>
         <layout>Bike__c-Bike Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Case-Formato de casos</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Contact-Formato de contactos</layout>
