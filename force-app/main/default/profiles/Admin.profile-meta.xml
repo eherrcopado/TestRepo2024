@@ -17,6 +17,11 @@
         <field>Dog__c.Breed__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Lead.X625FieldNew__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Formato de cuentas</layout>
     </layoutAssignments>
@@ -25,6 +30,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Dog__c-Dog Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Lead-Formato de candidatos</layout>
     </layoutAssignments>
     <loginHours n1:nil="true" />
     <loginIpRanges>
