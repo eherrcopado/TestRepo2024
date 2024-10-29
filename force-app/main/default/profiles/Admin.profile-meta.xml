@@ -7,8 +7,16 @@
         <field>Dog__c.Breed__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Organization__c.Members__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Dog__c-Dog Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Organization__c-Organization Layout</layout>
     </layoutAssignments>
     <loginHours n1:nil="true" />
     <loginIpRanges>
@@ -23,6 +31,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Dog__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Organization__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <userLicense>Salesforce</userLicense>
@@ -280,6 +297,18 @@
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
+        <name>ExternalClientAppAdmin</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ExternalClientAppDeveloper</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ExternalClientAppViewer</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
         <name>GiveRecognitionBadge</name>
     </userPermissions>
     <userPermissions>
@@ -429,6 +458,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ManageMobile</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ManageMobileAppSecurity</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
@@ -669,6 +702,10 @@
     <userPermissions>
         <enabled>true</enabled>
         <name>ViewAllUsers</name>
+    </userPermissions>
+    <userPermissions>
+        <enabled>true</enabled>
+        <name>ViewClientSecret</name>
     </userPermissions>
     <userPermissions>
         <enabled>true</enabled>
