@@ -34,6 +34,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Patient__c.Appointments__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Student__c.Major__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -53,6 +58,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Organization__c-Organization Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Patient__c-Patient Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Student__c-Student Layout</layout>
@@ -97,6 +105,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Organization__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Patient__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
