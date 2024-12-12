@@ -14,6 +14,16 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Department_Donation__c.Donation_Amount__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
+        <field>Department_Donation__c.Donation_Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Device__c.Serial_Number__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -61,6 +71,9 @@
         <layout>Bike__c-Bike Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
+        <layout>Department_Donation__c-Department Donation Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
         <layout>Device__c-Device Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
@@ -91,6 +104,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Bike__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Department_Donation__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
