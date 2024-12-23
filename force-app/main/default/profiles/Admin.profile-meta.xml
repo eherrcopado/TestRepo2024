@@ -64,6 +64,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Donor__c.Name__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Hawkeye__c.Achievement_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -105,6 +110,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Dog__c-Dog Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Donor__c-Donor Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Hawkeye__c-Hawkeye Layout</layout>
@@ -167,6 +175,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Dog__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Donor__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
