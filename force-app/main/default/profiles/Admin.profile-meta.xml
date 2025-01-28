@@ -79,6 +79,11 @@
     </fieldPermissions>
     <fieldPermissions>
         <editable>true</editable>
+        <field>Energy_Source__c.Type__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>true</editable>
         <field>Hawkeye__c.Achievement_Date__c</field>
         <readable>true</readable>
     </fieldPermissions>
@@ -129,6 +134,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Employee__c-Employee Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>Energy_Source__c-Energy Source Layout</layout>
     </layoutAssignments>
     <layoutAssignments>
         <layout>Hawkeye__c-Hawkeye Layout</layout>
@@ -218,6 +226,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Employee__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Energy_Source__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <objectPermissions>
